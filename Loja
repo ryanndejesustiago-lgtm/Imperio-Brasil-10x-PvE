@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Loja ARK Server</title>
+<style>
+body { font-family: Arial, sans-serif; background:#1a1a1a; color:#f0f0f0; margin:0; padding:0;}
+header { background:#2c3e50; padding:20px; text-align:center; }
+header h1 { margin:0; color:#fff; }
+nav { background:#34495e; display:flex; justify-content:center; }
+nav a { color:#fff; padding:15px 20px; text-decoration:none; }
+nav a:hover { background:#1abc9c; }
+.container { padding:20px; display:flex; flex-wrap:wrap; justify-content:center; }
+.product { background:#2c3e50; margin:10px; padding:20px; width:250px; border-radius:8px; text-align:center; }
+.product h2 { margin-top:0; }
+.product button { background:#1abc9c; color:#fff; border:none; padding:10px 20px; cursor:pointer; border-radius:5px; }
+.product button:hover { background:#16a085; }
+footer { background:#2c3e50; text-align:center; padding:15px; margin-top:20px; }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Loja Oficial do ARK Server</h1>
+</header>
+
+<nav>
+  <a href="#">Home</a>
+  <a href="#">Loja</a>
+  <a href="#">Contato</a>
+</nav>
+
+<div class="container">
+  <div class="product">
+    <h2>Hover Skiff Pack</h2>
+    <p>Pacote especial com Hover Skiff pronto e itens Tek.</p>
+    <p>R$50,00</p>
+    <button onclick="alert('Redirecionando para pagamento...')">Comprar</button>
+  </div>
+  <div class="product">
+    <h2>Tek Starter Kit</h2>
+    <p>Inclui Tek Suit completo e armas Tek.</p>
+    <p>R$35,00</p>
+    <button onclick="alert('Redirecionando para pagamento...')">Comprar</button>
+  </div>
+  <div class="product">
+    <h2>Moeda do Servidor</h2>
+    <p>500 créditos para usar na loja do servidor.</p>
+    <p>R$20,00</p>
+    <button onclick="alert('Redirecionando para pagamento...')">Comprar</button>
+  </div>
+</div>
+
+<footer>
+  &copy; 2026 ARK Server | Contato: suporte@arkserver.com
+</footer>
+
+</body>
+</html>
